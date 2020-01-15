@@ -1,0 +1,27 @@
+{
+  "name": "hello-redux",
+  "version": "1.0.0",
+  "description": "Redux Basic Example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r esm index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ykws/hello-redux.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "KAWASHIMA Yoshiyuki <ykawashi7@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykws/hello-redux/issues"
+  },
+  "homepage": "https://github.com/ykws/hello-redux#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "redux": "^4.0.5"
+  }
+}
